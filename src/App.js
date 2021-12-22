@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import {Features, Footer, Header, Whatis} from './containers';
+import {CTA, Brand, Navbar} from './components';
 
 const App = () => {
   return (
