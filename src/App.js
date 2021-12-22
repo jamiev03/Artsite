@@ -1,11 +1,23 @@
 import React from 'react';
-import {Features, Footer, Header, Whatis} from './containers';
-import {CTA, Brand, Navbar} from './components';
+import { Navbar, Feature, About, Footer, HeaderText, Process, Works } from './components';
 
 const App = () => {
   return (
-    <div>
-      <h1>GT#</h1>
+    <div className="App">
+      <div className="header">
+        <Navbar/>
+        <HeaderText/>
+      </div>
+      <div className="body">
+        <Feature/>
+        <About/>
+        <Process/>
+        <Works/>
+      </div>
+      <div className="footer">
+        <Footer/>
+      </div>
+      
     </div>
   )
 }
