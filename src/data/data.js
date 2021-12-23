@@ -1,4 +1,4 @@
-export const featuresData = [
+export const data = [
     {
       title: 'Improving end distrusts instantly',
       text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
