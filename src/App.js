@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Navbar, Feature, About, Footer, HeaderText, Process, Works } from './components';
+import { Navbar, Feature, Feature2, About, Footer, HeaderText, Process, Works } from './components';
 
 const App = () => {
   return (
@@ -11,6 +11,7 @@ const App = () => {
       <div className="body">
         <Feature/>
         <About/>
+        <Feature2/>
         <Process/>
         <Works/>
       </div>
