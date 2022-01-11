@@ -18,3 +18,18 @@ ul {
     max-width: 80%;
     margin: 0 auto;
 }
+
+.text__container {
+    width: 40%;
+}
+
+.text__header {
+    font-size: 58px;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.text__body {
+    font-size: 20px;
+    line-height: 1.8rem;
+}
