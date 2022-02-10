@@ -1,5 +1,8 @@
 import React from "react";
 import "./footer.css";
+import Github from '../../assets/Github.png';
+import Twitter from '../../assets/Twitter.png';
+
 
 const Footer = () => {
   return (
@@ -18,9 +21,17 @@ const Footer = () => {
             <h5 className="email__link">jamie@laosawaits.com</h5>
           </div>
           <div className="footer__links">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-            debitis distinctio veritatis. Corrupti reprehenderit fugit vero
-            veritatis velit corporis doloremque!
+            <p className="text__body">
+                <h5>Follow me</h5>
+                <img src={Github} alt="swirly blob thing" />
+                <img src={Twitter} alt="swirly blob thing" />
+            </p>
+            <ul>
+                <li>HOME</li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
           </div>
         </div>
       </div>
