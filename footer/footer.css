@@ -1,0 +1,22 @@
+.footer__container {
+    background-color: #000;
+    height: 60vh;
+    color: #fff;
+}
+
+.footer__text__header {
+    font-size: 58px;
+    font-weight: 500;
+    margin-top: 7rem;
+}
+
+.email__link {
+    font-weight: 500;
+    font-size: 38px;
+    padding-top: 2rem;
+}
+
+.footer__links {
+    width: 40%;
+    display: flex;
+}

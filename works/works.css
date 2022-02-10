@@ -1,0 +1,46 @@
+.works__container {
+    margin: 7rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.works__image {
+    width: 39%;
+    height: auto;
+    display: block;
+}
+
+.works__image2 {
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+}
+
+.works__image2 img {
+    width: 30%;
+    height: auto;
+}
+
+.works__image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.works__inmotion {
+    margin-top: 2rem;
+}
+
+.works__flow {
+    margin-top: 2rem;
+}
+
+.works__inmotion_images {
+    display: flex;
+    justify-content: space-between;
+}
+.works__inmotion_images img {
+    margin: 2rem 0 2rem 0;
+    width: 30%;
+    height: auto;
+}

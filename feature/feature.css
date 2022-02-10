@@ -1,0 +1,10 @@
+.feature__container {
+    margin: 7rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature__text {
+    font-size: 38px;
+    font-weight: 500;
+}

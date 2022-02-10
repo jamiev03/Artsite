@@ -1,0 +1,28 @@
+.process__container {
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.process__img {
+    transform: rotate(90deg);
+    margin-right: 2rem;
+}
+
+.process__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 40%;
+    flex-wrap: wrap;
+}
+.process__left_text {
+    max-width: 40%;
+    margin-top: 4rem;
+}
+
+h5 {
+    font-size: 24px;
+    padding-bottom: 1rem;
+}

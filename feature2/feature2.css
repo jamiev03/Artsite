@@ -1,0 +1,10 @@
+.feature2__container {
+    padding-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature2__container img {
+    width: 30%;
+    height: auto;
+}
