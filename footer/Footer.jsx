@@ -28,12 +28,15 @@ const Footer = () => {
             </p>
             <ul>
                 <li>HOME</li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>ABOUT</li>
+                <li>PROCESS</li>
+                <li>CONNECT</li>
             </ul>
           </div>
         </div>
+        <div className="disclaimer">
+          <p>copyright - designed and coded by: Jamie V. 2022</p>
+      </div>
       </div>
     </div>
   );
