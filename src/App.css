@@ -15,7 +15,7 @@ ul {
 }
 
 .container {
-    max-width: 65%;
+    max-width: 85%;
     margin: 0 auto;
 }
 
@@ -36,4 +36,24 @@ ul {
 
 p {
     letter-spacing: 0.03rem;
+}
+
+/* media queries */
+@media (min-width: 640px) {
+
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 65%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1280px) {
+   
 }
