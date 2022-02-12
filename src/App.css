@@ -20,7 +20,7 @@ ul {
 }
 
 .text__container {
-    width: 40%;
+    width: 100%;
 }
 
 .text__header {
@@ -55,5 +55,7 @@ p {
 }
 
 @media (min-width: 1280px) {
-   
+    .text__container {
+        width: 40%;
+    }
 }
