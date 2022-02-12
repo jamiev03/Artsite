@@ -24,7 +24,7 @@ ul {
 }
 
 .text__header {
-    font-size: 58px;
+    font-size: 2.2rem;
     font-weight: 500;
     padding-bottom: 2rem;
 }
@@ -44,7 +44,9 @@ p {
 }
 
 @media (min-width: 768px) {
-    
+    .text__header {
+        font-size: 3rem;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -52,10 +54,14 @@ p {
         max-width: 65%;
         margin: 0 auto;
     }
+   
 }
 
 @media (min-width: 1280px) {
     .text__container {
         width: 40%;
+    }
+    .text__header {
+        font-size: 3.4rem;
     }
 }
